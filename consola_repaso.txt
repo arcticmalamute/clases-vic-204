@@ -1,0 +1,12 @@
+$ ls -R proyecto
+proyecto:
+datos/  informes/
+
+proyecto/datos:
+ventas_enero.csv  ventas_febrero.csv
+
+proyecto/informes:
+borradores/  resumen.txt
+
+proyecto/informes/borradores:
+ideas.txt  notas.txt
