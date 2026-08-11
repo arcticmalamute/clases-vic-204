@@ -1,8 +1,11 @@
+# esta variable es para saber si vas a continuar
 continuar = "s"
 
 while (continuar == "s"):
 
     distancia_km = float(input("ingrese la distancia en km: "))
+
+    #esta parte es para calcular cuanto te costara el domicilio
 
     print(f"distancia_km: {distancia_km}")
 
@@ -16,8 +19,11 @@ while (continuar == "s"):
     if costo_domicilio == 0:
         print ("por fuera del area - no hay domicilios")
     else:
+        
+        #resultado final
+
         print (f"costo del domicilio ${costo_domicilio}")
 
     continuar = input("realizar otro calculo?: (s/n)")
 
-print ("gracias por usar")
+print ("gracias por usar") 
